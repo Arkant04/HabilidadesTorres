@@ -10,6 +10,13 @@ public class AbilityHolder : MonoBehaviour
     Vector3 directionToMouse;
     [SerializeField] Transform cameraPosZ;
 
+    void Start()
+    {
+        for (int i = 0; i < abilities.Count; i++)
+          abilities[i].PlayerTr(transform);
+        
+    }
+
     void Update()
     {
         /////Abilidades/////
@@ -31,8 +38,10 @@ public class AbilityHolder : MonoBehaviour
        directionToMouse = (globalMousePos - transform.position).normalized;
        transform.up = directionToMouse.normalized;
 
+       Transform playerTrans = gameObject.GetComponent<Transform>();
+
         if (Input.GetMouseButtonDown(0))
-            abilities[selectedAbilityIndex].Trigger(directionToMouse); 
+            abilities[selectedAbilityIndex].Trigger(directionToMouse, this); 
 
         /////
     }

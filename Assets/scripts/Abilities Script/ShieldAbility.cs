@@ -2,11 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu]
+
 public class ShieldAbility : Abilty
 {
     [SerializeField] GameObject shieldPrefab;
-    [SerializeField] Transform shieldSpawnPoint;
-    public override void Trigger(Vector3 direccion)
+    Transform shieldSpawnPoint;
+
+    public override void PlayerTr(Transform playerTr)
+    {
+        shieldSpawnPoint = playerTr.Find("ShieldSpawn");
+    }
+
+    public override void Trigger(Vector3 direccion, MonoBehaviour peonCourutine)
     {
         if(elapsedCoolDown == 0)
         {
@@ -16,7 +24,7 @@ public class ShieldAbility : Abilty
                         Quaternion.identity
                     );
             Destroy(shieldInstance, 3f);
-            StartCoroutine(coolDownCouroutine());
+            peonCourutine.StartCoroutine(coolDownCouroutine());
         }
 
         else if (elapsedCoolDown >= coolDown)

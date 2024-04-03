@@ -3,14 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - jugador
-  - enemy
-  - bigBullet
-  - bullet
-  - BigDamege
-  - MediumDamage
-  - LittleDamage
+  tags: []
   layers:
   - Default
   - TransparentFX
