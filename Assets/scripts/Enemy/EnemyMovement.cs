@@ -6,11 +6,13 @@ public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] float speed;
     Transform player;
+    bool PlayerDead = false;
     [SerializeField] int damage = 6;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("jugador").transform;
+        gameEvents.PlayerIsDead.AddListener(PlayerHasDie);
     }
 
     void Update()
@@ -20,7 +22,17 @@ public class EnemyMovement : MonoBehaviour
         directionToPlayer = player.position - transform.position;
 
         directionToPlayer = directionToPlayer.normalized;
+        if (PlayerDead)
+            transform.position -= directionToPlayer * speed * Time.deltaTime;
+
+        else
         transform.position += directionToPlayer * speed * Time.deltaTime;
+    }
+
+    void PlayerHasDie()
+    {
+        PlayerDead = true;
+        Destroy(gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
