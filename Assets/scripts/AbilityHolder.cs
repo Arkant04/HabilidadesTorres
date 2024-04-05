@@ -16,7 +16,6 @@ public class AbilityHolder : MonoBehaviour
 
     void Start()
     {
-<<<<<<< HEAD
         canNotShootPR.Pause();
         for (int i = 0; i < abilities.Count; i++)
           abilities[i].PlayerTr(transform);
@@ -26,10 +25,6 @@ public class AbilityHolder : MonoBehaviour
         abalitiesBI[2].SetActive(false);
         abalitiesBI[3].SetActive(false);
         abalitiesBI[4].SetActive(false);
-=======
-        for (int i = 0; i < abilities.Count; i++)
-          abilities[i].PlayerTr(transform);
->>>>>>> 21226fe87b7541493205799e41daaadbd7fd45e2
         
     }
 
@@ -92,7 +87,6 @@ public class AbilityHolder : MonoBehaviour
        Transform playerTrans = gameObject.GetComponent<Transform>();
 
         if (Input.GetMouseButtonDown(0))
-<<<<<<< HEAD
         {
             abilities[selectedAbilityIndex].Trigger(directionToMouse, this, abilitiesIC, iconFilling(), canNotShootPR);
 
@@ -102,9 +96,6 @@ public class AbilityHolder : MonoBehaviour
             
             
         }
-=======
-            abilities[selectedAbilityIndex].Trigger(directionToMouse, this); 
->>>>>>> 21226fe87b7541493205799e41daaadbd7fd45e2
 
         /////
         

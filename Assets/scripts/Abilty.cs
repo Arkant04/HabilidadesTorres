@@ -16,16 +16,12 @@ public abstract class Abilty : ScriptableObject
     //[SerializeField] Image abIcon;
     // [SerializeField] public float Speed = 4f;
     public abstract void PlayerTr(Transform playerTr);
-<<<<<<< HEAD
     public abstract void Trigger(
         Vector3 direccion, 
         MonoBehaviour peonCoroutine, 
         List<Image> abIcon, 
         IEnumerator iconCd, 
         ParticleSystem canNotShootPR); //abstrac es para heredar
-=======
-    public abstract void Trigger(Vector3 direccion, MonoBehaviour peonCoroutine); //abstrac es para heredar
->>>>>>> 21226fe87b7541493205799e41daaadbd7fd45e2
 
     public IEnumerator coolDownCouroutine()
     {

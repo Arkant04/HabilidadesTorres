@@ -151,11 +151,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 803928133}
-<<<<<<< HEAD
   m_RootOrder: 1
-=======
-  m_RootOrder: 2
->>>>>>> 21226fe87b7541493205799e41daaadbd7fd45e2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &354018626
 GameObject:
@@ -416,7 +412,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1001 &770896497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -553,8 +548,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-=======
->>>>>>> 21226fe87b7541493205799e41daaadbd7fd45e2
 --- !u!1 &803928132
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,7 +575,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-<<<<<<< HEAD
   - {fileID: 1556108330}
   - {fileID: 72355733}
   - {fileID: 1097801252}
@@ -792,14 +784,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899353446}
   m_CullTransparentMesh: 1
-=======
-  - {fileID: 1097801252}
-  - {fileID: 1556108330}
-  - {fileID: 72355733}
-  m_Father: {fileID: 1416976847}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> 21226fe87b7541493205799e41daaadbd7fd45e2
 --- !u!1 &899792221
 GameObject:
   m_ObjectHideFlags: 0
@@ -1130,11 +1114,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 803928133}
-<<<<<<< HEAD
   m_RootOrder: 2
-=======
-  m_RootOrder: 0
->>>>>>> 21226fe87b7541493205799e41daaadbd7fd45e2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1169682791
 GameObject:
@@ -1819,11 +1799,8 @@ GameObject:
   - component: {fileID: 1416976842}
   - component: {fileID: 1416976849}
   - component: {fileID: 1416976848}
-<<<<<<< HEAD
   - component: {fileID: 1416976844}
   - component: {fileID: 1416976843}
-=======
->>>>>>> 21226fe87b7541493205799e41daaadbd7fd45e2
   m_Layer: 0
   m_Name: Player
   m_TagString: jugador
@@ -1843,7 +1820,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6da4c3cf52891d14784b8523dc372250, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
 --- !u!199 &1416976843
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -6616,8 +6592,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
-=======
->>>>>>> 21226fe87b7541493205799e41daaadbd7fd45e2
 --- !u!114 &1416976845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6636,7 +6610,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c55346e38591ccb4b886d1aeb6641839, type: 2}
   - {fileID: 11400000, guid: 9419ab5a887c2d2418b27c78ebcb0774, type: 2}
   - {fileID: 11400000, guid: 95a43b2b871379149bc922349d25f0fa, type: 2}
-<<<<<<< HEAD
   abalitiesBI:
   - {fileID: 1767501320}
   - {fileID: 365438373}
@@ -6650,8 +6623,6 @@ MonoBehaviour:
   - {fileID: 1731746026}
   - {fileID: 1050596182}
   canNotShootPR: {fileID: 1416976844}
-=======
->>>>>>> 21226fe87b7541493205799e41daaadbd7fd45e2
   cameraPosZ: {fileID: 519420032}
   PlayerHealth: {fileID: 1416976848}
 --- !u!212 &1416976846
@@ -6875,11 +6846,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 803928133}
-<<<<<<< HEAD
   m_RootOrder: 0
-=======
-  m_RootOrder: 1
->>>>>>> 21226fe87b7541493205799e41daaadbd7fd45e2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1731746025
 PrefabInstance:
